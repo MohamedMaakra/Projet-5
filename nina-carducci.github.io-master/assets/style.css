@@ -99,6 +99,10 @@ nav a {
 .gallery .nav {
   justify-content: center;
 }
+
+.nav-link:hover{
+  cursor: pointer;
+}
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
