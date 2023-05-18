@@ -100,10 +100,11 @@ nav a {
   justify-content: center;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   cursor: pointer;
 }
-.nav-pills .nav-link.active,
+
+.nav-pills .nav-link.active-tag,
 .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #beb45a;
@@ -283,8 +284,7 @@ input[type="submit"] {
     text-align: center;
     margin-top: 1em;
   }
-article
- .container {
+  article .container {
     flex-direction: column;
   }
   .service {
@@ -297,8 +297,7 @@ article
     margin-bottom: 1em;
   }
 
-article
- .container::before {
+  article .container::before {
     width: 30%;
     height: 100%;
     bottom: 0;
